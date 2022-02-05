@@ -22,40 +22,481 @@ SLK: Some of the problems are not taken from the course textbooks but can be fou
 
 The \[\*\] that appears before some problems indicates that the problem is to be presented in class.
 
-| SES # | TOPICS | ASSIGNMENTS |
-| --- | --- | --- |
-| {{< td-colspan 3 >}}**Rings and ideals**{{< /td-colspan >}} |||
-| 1 | Introduction, examples, prime ideals |  {{< br >}}{{< br >}} R: Problems 1.5, 1.6, 1.12(a) {{< br >}}{{< br >}} SLK: \[\*\] 1 {{< br >}}{{< br >}}  |
-| 2 | Maximal ideals, Zorn's lemma |  {{< br >}}{{< br >}} R: Problems \[\*\] 1.18, 1.19 {{< br >}}{{< br >}} SLK: 2 {{< br >}}{{< br >}}  |
-| 3 | Nilpotents, radical of an ideal, idempotents, local rings | R: Problems 1.4, 1.11, \[\*\] 1.10 |
-| {{< td-colspan 3 >}}**Modules**{{< /td-colspan >}} |||
-| 4 |  {{< br >}}{{< br >}} Homomorphisms, generators, Cayley-Hamilton theorem, determinant trick, Nakayama's lemma {{< br >}}{{< br >}}  | R: Problems 2.1, \[\*\] 2.6 (and prove that every minimal generating set of M has the same number of elements), 2.8 (and prove that the idempotent is unique) |
-| 5 | Exact sequences, ascending chain condition, Noetherian rings |  {{< br >}}{{< br >}} R: Problems \[\*\] 2.9, 3.2, 3.5 (prove it, or give a counterexample) {{< br >}}{{< br >}} SLK: 3 {{< br >}}{{< br >}}  |
-| 6 | Hilbert basis theorem, Noetherian modules | R: Problems 3.3, 3.4, 3.7 (with p a prime), \[\*\] 3.8 |
-| {{< td-colspan 3 >}}**Integral dependence**{{< /td-colspan >}} |||
-| 7 | Integral closure, Noether normalization |  {{< br >}}{{< br >}} R: Problems 4.1(a), \[\*\] 4.5 {{< br >}}{{< br >}} AM: Problem 5.6 {{< br >}}{{< br >}}  |
-| 8 | Proof of Noether normalization, weak Nullstellensatz |  {{< br >}}{{< br >}} R: Problems 4.9, \[\*\] 4.10 {{< br >}}{{< br >}} AM: Problem 5.9 {{< br >}}{{< br >}}  |
-| {{< td-colspan 3 >}}**Localization**{{< /td-colspan >}} |||
-| 9 | Construction of S^{-1}A, basic properties | R: Problems: \[\*\] 6.3(a), 6.1 (show that the ring _A_ of problem 6.3(a) works), 6.5 (describe each subring _A_ as a localization of Z) |
-| 10 | Ideals in _A_ and _S_\-1_A_, localization of modules |  {{< br >}}{{< br >}} R: Problem \[\*\] 6.13 {{< br >}}{{< br >}} SLK: 4, 5 {{< br >}}{{< br >}}  |
-| 11 | Exactness of localization |  {{< br >}}{{< br >}} AM: Problem \[\*\] 3.1 {{< br >}}{{< br >}} SLK: 6, 7, 8 {{< br >}}{{< br >}}  |
-| 12 | Support of a module Supp_M_, definition and properties of Ass_M_ |  {{< br >}}{{< br >}} R: Problem \[\*\] 7.2 (if true, prove it; if false, give a counterexample) {{< br >}}{{< br >}} SLK: 9 {{< br >}}{{< br >}}  |
-| 13 | Relation between Supp and Ass, disassembling a module | R: Problems 7.4, 7.6, \[\*\] 7.7 |
-| {{< td-colspan 3 >}}**Primary decomposition**{{< /td-colspan >}} |||
-| 14 | Primary ideals, primary decomposition, uniqueness of primary decomposition |  {{< br >}}{{< br >}} R: Problems 7.8, 7.10 {{< br >}}{{< br >}} SLK: \[\*\] 10 {{< br >}}{{< br >}}  |
-| {{< td-colspan 3 >}}**Dedekind domains**{{< /td-colspan >}} |||
-| 15 | Definition of a DVR |  {{< br >}}{{< br >}} R: Problems 8.1, 8.2, 8.4 {{< br >}}{{< br >}} SLK: 11 {{< br >}}{{< br >}}  |
-| 16 | Main theorem on DVRs, general valuation rings |  {{< br >}}{{< br >}} R: Problem \[\*\] 8.6 {{< br >}}{{< br >}} SLK: 12, 13 {{< br >}}{{< br >}}  |
-| 17 | Serre's criterion of normality, Dedekind domains |  {{< br >}}{{< br >}} R: Problem 8.7 {{< br >}}{{< br >}} SLK: \[\*\] 14, 15 {{< br >}}{{< br >}}  |
-| 18 | Fractional ideals |  {{< br >}}{{< br >}} AM: Problems 9.7, 9.8 {{< br >}}{{< br >}} SLK: \[\*\] 16 {{< br >}}{{< br >}}  |
-| 19 | Finiteness of normalization | SLK: 17, 18, \[\*\] 19, 20 |
-| {{< td-colspan 3 >}}**Dimension theory**{{< /td-colspan >}} |||
-| 20 | Going up, lying over, going down, dimension of affine rings |  {{< br >}}{{< br >}} E: Problems 13.2, \[\*\] 13.3 {{< br >}}{{< br >}} SLK: 21, 22, 23 {{< br >}}{{< br >}}  |
-| 21 | Artin rings |  {{< br >}}{{< br >}} E: Problem 9.4 {{< br >}}{{< br >}} SLK: \[\*\] 24, 25, 26 {{< br >}}{{< br >}}  |
-| 22 | Krull's principal ideal theorem, parameter ideals | SLK: 27, \[\*\] 28, 29 |
-| {{< td-colspan 3 >}}**Tensor product**{{< /td-colspan >}} |||
-| 23 | Tensor product of modules, restriction and extension of scalars, flatness | SLK: \[\*\] 30, 31, 32 |
-| {{< td-colspan 3 >}}**Length**{{< /td-colspan >}} |||
-| 24 | Modules of finite length | SLK: 33, \[\*\] 34, 35 |
-| 25 | Graded rings and modules, associated graded ring, Hilbert polynomials | &nbsp; |
-| 26 | Filtrations, Artin-Reese lemma, dimension and Hilbert-Samuel polynomials |
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+SES #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+ASSIGNMENTS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Rings and ideals**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction, examples, prime ideals
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+R: Problems 1.5, 1.6, 1.12(a)
+
+SLK: \[\*\] 1
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Maximal ideals, Zorn's lemma
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+R: Problems \[\*\] 1.18, 1.19
+
+SLK: 2
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Nilpotents, radical of an ideal, idempotents, local rings
+{{< tdclose >}}
+{{< tdopen >}}
+R: Problems 1.4, 1.11, \[\*\] 1.10
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Modules**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Homomorphisms, generators, Cayley-Hamilton theorem, determinant trick, Nakayama's lemma
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+R: Problems 2.1, \[\*\] 2.6 (and prove that every minimal generating set of M has the same number of elements), 2.8 (and prove that the idempotent is unique)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Exact sequences, ascending chain condition, Noetherian rings
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+R: Problems \[\*\] 2.9, 3.2, 3.5 (prove it, or give a counterexample)
+
+SLK: 3
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Hilbert basis theorem, Noetherian modules
+{{< tdclose >}}
+{{< tdopen >}}
+R: Problems 3.3, 3.4, 3.7 (with p a prime), \[\*\] 3.8
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Integral dependence**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Integral closure, Noether normalization
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+R: Problems 4.1(a), \[\*\] 4.5
+
+AM: Problem 5.6
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Proof of Noether normalization, weak Nullstellensatz
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+R: Problems 4.9, \[\*\] 4.10
+
+AM: Problem 5.9
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Localization**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Construction of S^{-1}A, basic properties
+{{< tdclose >}}
+{{< tdopen >}}
+R: Problems: \[\*\] 6.3(a), 6.1 (show that the ring _A_ of problem 6.3(a) works), 6.5 (describe each subring _A_ as a localization of Z)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Ideals in _A_ and _S_\-1_A_, localization of modules
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+R: Problem \[\*\] 6.13
+
+SLK: 4, 5
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Exactness of localization
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+AM: Problem \[\*\] 3.1
+
+SLK: 6, 7, 8
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Support of a module Supp_M_, definition and properties of Ass_M_
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+R: Problem \[\*\] 7.2 (if true, prove it; if false, give a counterexample)
+
+SLK: 9
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Relation between Supp and Ass, disassembling a module
+{{< tdclose >}}
+{{< tdopen >}}
+R: Problems 7.4, 7.6, \[\*\] 7.7
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Primary decomposition**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Primary ideals, primary decomposition, uniqueness of primary decomposition
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+R: Problems 7.8, 7.10
+
+SLK: \[\*\] 10
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Dedekind domains**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Definition of a DVR
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+R: Problems 8.1, 8.2, 8.4
+
+SLK: 11
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Main theorem on DVRs, general valuation rings
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+R: Problem \[\*\] 8.6
+
+SLK: 12, 13
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Serre's criterion of normality, Dedekind domains
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+R: Problem 8.7
+
+SLK: \[\*\] 14, 15
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Fractional ideals
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+AM: Problems 9.7, 9.8
+
+SLK: \[\*\] 16
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Finiteness of normalization
+{{< tdclose >}}
+{{< tdopen >}}
+SLK: 17, 18, \[\*\] 19, 20
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Dimension theory**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Going up, lying over, going down, dimension of affine rings
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+E: Problems 13.2, \[\*\] 13.3
+
+SLK: 21, 22, 23
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Artin rings
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+E: Problem 9.4
+
+SLK: \[\*\] 24, 25, 26
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Krull's principal ideal theorem, parameter ideals
+{{< tdclose >}}
+{{< tdopen >}}
+SLK: 27, \[\*\] 28, 29
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Tensor product**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Tensor product of modules, restriction and extension of scalars, flatness
+{{< tdclose >}}
+{{< tdopen >}}
+SLK: \[\*\] 30, 31, 32
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Length**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+Modules of finite length
+{{< tdclose >}}
+{{< tdopen >}}
+SLK: 33, \[\*\] 34, 35
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+25
+{{< tdclose >}}
+{{< tdopen >}}
+Graded rings and modules, associated graded ring, Hilbert polynomials
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+26
+{{< tdclose >}}
+{{< tdopen >}}
+Filtrations, Artin-Reese lemma, dimension and Hilbert-Samuel polynomials
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

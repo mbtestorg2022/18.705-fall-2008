@@ -45,14 +45,99 @@ Problem sets are due in class each Thursday of the week after they are assigned 
 Calendar
 --------
 
-| SES # | TOPICS |
-| --- | --- |
-| 1-3 | Rings and ideals |
-| 4-6 | Modules |
-| 7-8 | Integral dependence |
-| 9-13 | Localization |
-| 14 | Primary decomposition |
-| 15-19 | Dedekind domains |
-| 20-22 | Dimension theory |
-| 23 | Tensor product |
-| 24-26 | Length
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+SES #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1-3
+{{< tdclose >}}
+{{< tdopen >}}
+Rings and ideals
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4-6
+{{< tdclose >}}
+{{< tdopen >}}
+Modules
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7-8
+{{< tdclose >}}
+{{< tdopen >}}
+Integral dependence
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9-13
+{{< tdclose >}}
+{{< tdopen >}}
+Localization
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Primary decomposition
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15-19
+{{< tdclose >}}
+{{< tdopen >}}
+Dedekind domains
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20-22
+{{< tdclose >}}
+{{< tdopen >}}
+Dimension theory
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Tensor product
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24-26
+{{< tdclose >}}
+{{< tdopen >}}
+Length
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
